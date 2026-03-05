@@ -48,7 +48,7 @@ app.post('/send-email', async (req, res) => {
     // Email options
     const mailOptions = {
       from: process.env.EMAIL_USER || 'your-email@gmail.com',
-      to: 'syedsumaiya006@gmail.com',
+      to: 'urusashk9@gmail.com',
       subject: `Portfolio Contact: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
